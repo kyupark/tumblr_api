@@ -1,0 +1,10 @@
+Gem::Specification.new do |s|
+  s.name        = 'tumblr_api'
+  s.version     = '0.1.0'
+  s.summary     = "Tumblr Read API"
+  s.description = "It loads a tumblr blog data."
+  s.authors     = ["Kyu Park"]
+  s.email       = 'park@kyu.co'
+  s.files       = ["tumblr_api.rb", "README"]
+  s.homepage    = 'https://github.com/parkq/tumblr_api'
+end
