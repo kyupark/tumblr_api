@@ -1,0 +1,12 @@
+require 'tumblr-api'
+
+url = 'http://thoughtbot.tumblr.com'
+tumblr = Tumblr.new(url)
+articles = tumblr.articles
+total = tumblr.total
+
+puts tumblr.id
+puts tumblr.title
+
+puts articles[total].url
+puts articles[total].content
