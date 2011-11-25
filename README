@@ -1,4 +1,4 @@
-require 'tumblr-api'
+require 'tumblr_api'
 
 url = 'http://thoughtbot.tumblr.com'
 tumblr = Tumblr.new(url)
